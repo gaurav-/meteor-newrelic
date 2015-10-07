@@ -4,7 +4,7 @@ Meteor New Relic package
 This package exposes the [NPM New Relic agent](https://www.npmjs.com/package/newrelic) for use in Meteor. The 
 agent's tracer namespace has been patched using [cls-fibers](https://www.npmjs.com/package/cls-fibers) so the New Relic
 transactions don't get confused with Meteor's use of fibers. In the future this will be implemented in the
-[New Relic agent itself]((https://discuss.newrelic.com/t/node-fibers-memory-leaks-conflated-transactions/13743)).
+[New Relic agent itself](https://discuss.newrelic.com/t/node-fibers-memory-leaks-conflated-transactions/13743).
 
 This uses version 1.11.3 of the New Relic package.
 
