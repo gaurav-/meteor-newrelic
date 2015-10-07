@@ -1,15 +1,16 @@
-Meteor NewRelic Bindings
+Meteor New Relic package
 ==========================
 
-This smart package exposes Meteor NewRelic bindings.
+This package exposes the [NPM New Relic agent](https://www.npmjs.com/package/newrelic) for use in Meteor. The 
+agent's tracer namespace has been patched using [cls-fibers](https://www.npmjs.com/package/cls-fibers) so the New Relic
+transactions don't get confused with Meteor's use of fibers. In the future this will be implemented in the
+[New Relic agent itself]((https://discuss.newrelic.com/t/node-fibers-memory-leaks-conflated-transactions/13743)).
 
-This Meteor package is licensed under the MIT license.
-
-This uses version 1.11.3 of the NewRelic package.
+This uses version 1.11.3 of the New Relic package.
 
 #### To Install
 
-    meteor add mycartio:newrelic
+    meteor add loftsteinn:newrelic
 
 #### To Configure
 
@@ -21,4 +22,4 @@ Set the following environment variables:
     NEW_RELIC_APP_NAME          YOURAPPNAME
     NEW_RELIC_LOG_LEVEL         ONE OF error, warn, info, debug, or trace
 
-You can see the full list of node-newrelic options at https://github.com/newrelic/node-newrelic/blob/master/README.md
+You can see the full list of node-newrelic options [here](https://github.com/newrelic/node-newrelic/blob/master/README.md)
