@@ -1,12 +1,12 @@
 Package.describe({
     "summary": "Meteor New Relic agent (patched for fibers)",
     "name": "loftsteinn:newrelic",
-    "version": "1.11.3",
+    "version": "1.25.1",
     "git": "https://github.com/oskarszoon/newrelic"
 });
 
 Npm.depends({
-    "newrelic": "1.11.3",
+    "newrelic": "1.25.1",
     "cls-fibers": "1.1.1"
 });
 

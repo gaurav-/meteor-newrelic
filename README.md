@@ -6,7 +6,7 @@ agent's tracer namespace has been patched using [cls-fibers](https://www.npmjs.c
 transactions don't get confused with Meteor's use of fibers. In the future this will be implemented in the
 [New Relic agent itself](https://discuss.newrelic.com/t/node-fibers-memory-leaks-conflated-transactions/13743).
 
-This uses version 1.11.3 of the New Relic package.
+This uses version 1.25.1 of the New Relic package.
 
 #### To Install
 
