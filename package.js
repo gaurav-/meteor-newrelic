@@ -6,7 +6,7 @@ Package.describe({
 });
 
 Npm.depends({
-    "newrelic": "1.25.1",
+    "newrelic": "1.25.3",
     "cls-fibers": "1.1.1"
 });
 
