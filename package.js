@@ -1,7 +1,7 @@
 Package.describe({
     "summary": "Meteor New Relic agent (patched for fibers)",
     "name": "loftsteinn:newrelic",
-    "version": "1.25.1",
+    "version": "1.25.3",
     "git": "https://github.com/oskarszoon/newrelic"
 });
 
