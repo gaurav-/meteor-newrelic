@@ -15,6 +15,8 @@ Package.on_use(function (api) {
     if (api.export)
         api.export('newrelic', 'server');
 
+    api.use('inject-initial', ['client', 'server']);
+
     api.add_files('lib/server.js', 'server');
 });
 

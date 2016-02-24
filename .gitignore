@@ -1,3 +1,7 @@
 # ignore intellij files
 .idea
 *.iml
+
+
+# ignore generated .npm dir
+.npm
